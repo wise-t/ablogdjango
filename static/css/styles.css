@@ -1,0 +1,28 @@
+/*fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,800;1,400&display=swap');
+
+/*reset*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*helper*/
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    z-index: 999;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 3em;
+    color: blue;
+}
