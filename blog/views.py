@@ -9,6 +9,17 @@ from django.http import HttpResponseRedirect
 
 #def home(request):
     #return render(request,'home.html',{})
+	
+from django.contrib.auth.decorators import login_required
+
+
+@login_required
+def home(request):
+    return render(request, 'core/home.html')
+
+
+
+
 
 
 def LikeView(request, pk):
